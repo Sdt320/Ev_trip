@@ -12,9 +12,9 @@ export default function PlaceItem({place}) {
     <View 
     style={{
         backgroundColor:Colors.WHITE,
-        margin:5,
+        margin:10,
         borderRadius:10,
-        width:Dimensions.get('screen').width*0.9
+        width:Dimensions.get('screen').width*0.95
     }}>
         <LinearGradient
         colors={['transparent','#ffffff','#ffffff']}
@@ -25,7 +25,7 @@ export default function PlaceItem({place}) {
                 "/media?key="+GlobalApi.API_KEY+"&maxHeightPx=800&maxWidthPx=1200"}
         :require('./../../../assets/images/c21.jpg')}
         style={{width:'100%',borderRadius:10,
-        height:180,zIndex:-1}} 
+        height:150,zIndex:-1}} 
         />
 
         <View style={{

@@ -11,13 +11,11 @@ export default function Header() {
       <Image source={{uri:user?.imageUrl}}
       style={{width:45,height:45,borderRadius:90}}
       />
-      <Text style={styles.heading}> 
-        Happy Trip Planner
-      </Text>
+      
 
-     {/*<Image source={require('./../../../assets/images/demo_logo.jpg')}
-      style={{width:200,height:45,objectFit:'contain'}}
-  /> */}
+     <Image source={require('./../../../assets/images/login_page_log.png')}
+      style={{width:300,height:45,objectFit:'contain'}}
+  /> 
       <FontAwesome name="filter" size={24} color="black" />
     </View>
   )
@@ -29,7 +27,7 @@ const styles = StyleSheet.create({
         flexDirection:'row',
         justifyContent:'space-between',
         alignItems:'center',
-        backgroundColor:Colors.WHITE,
+        backgroundColor:Colors.WHITE_TRANSP,
 
 
     },

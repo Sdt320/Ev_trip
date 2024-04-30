@@ -33,10 +33,10 @@ export default function LoginScreen() {
         alignItems:'center',
         marginTop:70
     }}>
-        <Image source={require("./../../../assets/images/Step4 (2).png")}
+        <Image source={require("./../../../assets/images/login_page_log.png")}
         style={styles.logoImage}
         />
-        <Image source={require("./../../../assets/images/c21.jpg")}
+        <Image source={require("./../../../assets/images/login_page_img.jpg")}
         style={styles.bgImage}
         />
         <View style={{padding:20}}>
