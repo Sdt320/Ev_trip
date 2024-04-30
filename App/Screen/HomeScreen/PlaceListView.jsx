@@ -13,6 +13,7 @@ export default function PlaceListView({placeList}) {
       
     },[selectedMarker])
     const scrollToIndex=(index)=>{
+      if (placeList.length > index) //add to debug scroll range error
       flatListRef.current?.scrollToIndex({animated:true,index})
     }
     const getItemLayout=(_,index)=>({
