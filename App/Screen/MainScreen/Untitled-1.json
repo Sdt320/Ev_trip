@@ -1,0 +1,40 @@
+{
+    "places": [
+        {
+            "id": "ChIJUwVAdqfLBzsRlZEqitKJyVo",
+            "formattedAddress": "MRF7+J78, Poonjar, Kerala 686582, India",
+            "location": {
+                "latitude": 9.6740101,
+                "longitude": 76.8132017
+            },
+            "displayName": {
+                "text": "KSEB Charging Station",
+                "languageCode": "en"
+            },
+            "shortFormattedAddress": "MRF7+J78, Poonjar",
+            "photos": [
+                {
+                    "name": "places/ChIJUwVAdqfLBzsRlZEqitKJyVo/photos/ATplDJZ-DHC5dn2Tmm6tSLnA4tCbDve7_RQDJom9tMpJJcvDTKe4dJ6RYBHAVKuimY69nVOkH553gXzIl8c5STVPFtuy1SyA02HEg4fhkI5toBAwA9ErPNDa9TFq6btwWe5Dn_iwPQ_nLTJUhERpEMNQC_SozJyXJ9RWOJyN",
+                    "widthPx": 2160,
+                    "heightPx": 3564,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Amal Venugopal",
+                            "uri": "//maps.google.com/maps/contrib/113231994985318530583",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVqBRnGiYJVVWom73r2ByTiVbiKQTQiCJLLQd77ZhRwbYQpvtNd=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ],
+            "evChargeOptions": {
+                "connectorCount": 1,
+                "connectorAggregation": [
+                    {
+                        "type": "EV_CONNECTOR_TYPE_UNSPECIFIED_WALL_OUTLET",
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    ]
+}

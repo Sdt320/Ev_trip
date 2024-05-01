@@ -12,11 +12,9 @@ const firebaseConfig = {
   projectId: "ev-charge-station-ae15a",
   storageBucket: "ev-charge-station-ae15a.appspot.com",
   messagingSenderId: "81171656662",
-  appId: "1:81171656662:web:03b798c0d43e24595bfe77",
-  measurementId: "G-EXLYVTR9ZX"
+  appId: "1:81171656662:web:ee23f56dd1a7e04f5bfe77",
+  measurementId: "G-GMPX8EXNY2"
 };
-
-
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);

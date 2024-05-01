@@ -33,7 +33,7 @@ export default function HomeScreen() {
     }
 
     GlobalApi.NewNearByPlace(data).then(resp=>{
-      //console.log(JSON.stringify(resp.data));
+      console.log(JSON.stringify(resp.data));
       setPlaceList(resp.data?.places);
     })
   }
