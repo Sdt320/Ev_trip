@@ -49,6 +49,7 @@ export default function PlaceItem({place}) {
         style={{width:'100%',borderRadius:10,
         height:150,zIndex:-1}} 
         />
+        
 
         <View style={{
             padding:10}}>
